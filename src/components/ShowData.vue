@@ -1,12 +1,19 @@
 <template>
-    
-    
-<div class="row">
-    
-    
+ <div class="row">
+     
+     
     
      <div class="col-12">  <h1 class='text-center'>Tourist hotspots for you and your family!</h1>   </div>
+     
+     
+     
+     
+   <div class="column column-12">
+
     <div v-for="result in results" class="col-4">
+           <div class="column column-12">
+               
+               
       <div class="card" style="width: 30rem;">
  <img :src="result.picture.url">" 
   <div class="card-body">
@@ -22,7 +29,14 @@
     <a href="#" class="btn btn-primary">Go somewhere</a>
  
   </div>  -->
+  
+  
 </div> 
+  
+    </div>
+   
+
+
     </div>
     <!-- ./col-6 -->
     
