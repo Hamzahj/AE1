@@ -50,5 +50,17 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "description": "This is a very simple example of how to connect to the Autora API; simply follow the steps outlined below:",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamzahj/AE1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hamzahj/AE1/issues"
+  },
+  "homepage": "https://github.com/Hamzahj/AE1#readme"
 }

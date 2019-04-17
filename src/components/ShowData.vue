@@ -1,40 +1,51 @@
+
+
 <template>
- <div class="row">
+    
+<div class="row">
+ 
+     
+         <div class="column-12">
+    <h1>Tourist hotspots for your family</h1>
+
+ <div class="container">
+        <ul>
+          <li><span class="left_span"></span><span class="right_span"></span>Home</li>
+          <li><span class="left_span"></span><span class="right_span"></span>Services</li>
+          <li><span class="left_span"></span><span class="right_span"></span>Contact us</li>
+        </ul>
+
+    </div>
+         
+         </div>
      
      
     
-     <div class="col-12">  <h1 class='text-center'>Tourist hotspots for you and your family!</h1>   </div>
+  
      
-     
-     
-     
-   <div class="column column-12">
+     <div id="cards">
 
     <div v-for="result in results" class="col-4">
-           <div class="column column-12">
-               
-               
       <div class="card" style="width: 30rem;">
  <img :src="result.picture.url">" 
   <div class="card-body">
    <div>
  
 </div>
+
      <h5 class="card-title">{{result.name}}</h5>
     <h5 class="card-title">{{result.location.name}}</h5>
     <p class="card-text">{{result.summary}}</p>
     <p class="card-text">{{result.location.address}}</p>
-         <p class="card-text">:src{{result.picture.url}}</p>
         
     <a href="#" class="btn btn-primary">Go somewhere</a>
  
-  </div>  -->
-  
-  
-</div> 
-  
+  </div> 
+ 
     </div>
-   
+  
+
+
 
 
     </div>
@@ -77,6 +88,10 @@
       })
     }
   }
+  
+  
+  
+  
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
