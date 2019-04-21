@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-
+   <ShowData/>
+   
    <router-view></router-view>
    
   </div>

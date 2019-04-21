@@ -1,4 +1,4 @@
-import showData from './components/showData.vue'
+import showData from './components/ShowData.vue'
 import addData from './components/addData.vue'
 
 
