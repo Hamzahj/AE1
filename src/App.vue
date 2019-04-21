@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-   <ShowData/>
+
+   <router-view></router-view>
+   
   </div>
 </template>
 
@@ -29,7 +31,7 @@ export default {
 
 #cards{
    margin-left:100px; 
-  width:50rem;
+  width:10rem;
  float:left;
     border: dashed;
 }

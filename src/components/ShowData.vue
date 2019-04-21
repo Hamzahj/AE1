@@ -26,8 +26,8 @@
      <div id="cards">
 
     <div v-for="result in results" class="col-4">
-      <div class="card" style="width: 30rem;">
- <img :src="result.picture.url">" 
+      <div class="card" style="width: 50rem; height:50rem; margin-left:40px;">
+ <img :src="result.picture.url" >" 
   <div class="card-body">
    <div>
  
@@ -41,11 +41,11 @@
     <a href="#" class="btn btn-primary">Go somewhere</a>
  
   </div> 
+  
+  
  
     </div>
   
-
-
 
 
     </div>
