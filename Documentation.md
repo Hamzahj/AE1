@@ -163,10 +163,11 @@ Low, medium and high fidelity wireframes were made to plan out the structure of 
 
 
 
+** Main page(scrollable parallax)**
+![](images/wire.png)
 
-
-
-
+**Results page**
+![](images/wire2.png)
 
 
 
