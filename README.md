@@ -54,8 +54,11 @@ The fourth question asked what platform users most likely used when booking holi
 
 75% of potential consumers preferred links with a visual image. This indicated that the web app should have results with images already being used.
 
-
-
+![](images/2.png)
+![](images/3.png)
+![](images/4.png)
+![](images/5.png)
+![](images/6.png)
 
 
 
@@ -281,3 +284,4 @@ After the feedback was acquired from the users, the website needed to be updated
 
 
 **Conclusion**
+In conclusion the whole project has shown how API and information can be consumed into single page web application. Research has also shown that UX can have a massive impact when interacting with webpages, for example when comparing websites and conducting interviews as well as surveys. Designs are a big aspect of websites so they should be considered heavily. As for the technical side of things, routing on an SPA has taught me how convenient it can be for SPAs. Frameworks such as vue.JS have also shown how they can be implanted in any website with ease. The only issues that one came across were simple problems such as being unable to connect the Autora Api, however after the autora key was defined and the json file was analysed, the api was easy to consume into the page. 
