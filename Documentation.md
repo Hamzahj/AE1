@@ -69,12 +69,12 @@ The fourth question asked what platform users most likely used when booking holi
 
 [https://www.awwwards.com/websites/scrolling/](https://www.awwwards.com/websites/scrolling/), inspired me to apply scrollable parallax features to the single page app as based on the user interviews this design was found to be the most attractive feature and the most modern. bing.com was also analysed and the search engines most attractive feature was the stretched background image as it was eye-catching. Both would be potentially implemented into the SPA.
 
-
+![](images/7.png)
 
 **UX colour**
 
 According to [https://optinmonster.com/11-hacks-to-keep-visitors-on-your-pages-longer/](https://optinmonster.com/11-hacks-to-keep-visitors-on-your-pages-longer/) UX can be one of the differences between someone spending less than a minute or more than a minute on your website. Accoridng to  [https://searchengineland.com/google-testing-variations-black-links-search-results-275514](https://searchengineland.com/google-testing-variations-black-links-search-results-275514)In 2017, Google changed the way their search results appeared and it had a massive impact as users took a heavy dislike of the new change. When the links were clicked, there was no indication that they had been clicked. For example when links in the search engine results were clicked, they changed colour from blue to purple to indicate that the link was clicked on already. Google testing something so small had a big impact on users. Fortunately, for google, they realised that this was not a good change and reverted it back to normal. The picture shows, the two different colours that google used and the picture to the left has a very bland feel to it whereas the picture to the right has feels how google should feel.
-
+![](images/8.png)
 
 
 **Ux**  **background images**
@@ -87,7 +87,7 @@ Low, medium and high fidelity wireframes were made to plan out the structure of 
 
 **Main page(scrollable parallax)**
 
-
+![](images/9.png)
 
 
 
@@ -112,7 +112,7 @@ Low, medium and high fidelity wireframes were made to plan out the structure of 
 
 
 
-
+![](images/10.png)
 
 
 
@@ -139,7 +139,7 @@ Low, medium and high fidelity wireframes were made to plan out the structure of 
 
 ** Main page(scrollable parallax)**
 
-
+![](images/11.png)
 
 
 
@@ -155,7 +155,7 @@ Low, medium and high fidelity wireframes were made to plan out the structure of 
 
 **Results page**
 
-
+![](images/12.png)
 
 
 
@@ -206,6 +206,7 @@ A GitHub repository was set to ensure version control and along with this, depen
 **Web responsiveness**
 
 Responsive web design allows screen size to adjust automatically, so that when resizing the page, all elements will move with it. This is where CSS grids come into place and this will allow elements to be redefined using media queries. Firstly a 12 column CSS grid was created to ensure responsiveness as some users might be using different size laptops or computers.  However, since the tourist information website is based on desktops it is not a necessary but would be pleasant for users when it comes to using smaller devices. Media queries were used to ensure that when a browser is minimised it will adjust to the size of the page. A 12-column grid was made in CSS and along with this break points were made to ensure that when the browser is resized, you can still view all the content on the page.
+![](images/13.png)
 
 Once the grid was made, a Vue.js card template was used from the official vue website. The json file from the Autora api that was needed for placeholder data was implemented.
 
@@ -216,11 +217,11 @@ The official VUE js documentation states that it is recommended that routing is 
 To do routing on a single page application, a router is required and in the router there can be multiple paths.
 
 Firstly the router needed to be installed, to do this a simple command was run in the terminal and creating the vue project. Node.js was also installed to make sure vue-cli could be used to make a project. A template was automatically created inside the app.vue file and this is where routing would take. Firstly vue and also the vue router was imported. Then next vue was told to use the vue router. After this a router was finally configured. In the main.js file vue would need to be imported again and the third line was importing the router setup.
-
+![](images/14.png)
 A new routes.JS file was made so that the 2 components could be imported using an array of objects. The first default component was just a simple backslash to set the path location. This was the homepage that was created. The next was the add data page where all the api results would be displayed in their cards.
 
 **&quot;\&lt;router-link :to=&quot;&#39;/&#39;&quot;\&gt;&quot;**  was the tag used to set up the navigation bar so that the paths for the different files were accessible. This would allow for the different links to be clicked when viewing the pages. Once the routing was set up, two pages were left with templates inside. These were the components made earlier ready to be edited.
-
+![](images/15.png)
 **Consuming apis**
 
 Consuming the Autora api was simple as the autora key was required, along with importing axios which would allow to make requests to the server and get information from the autora api. To add details of the api to a specific div you would need to state the details from the json file, for example {{result.name}} would grab all the names of the places that were needed.
@@ -254,21 +255,9 @@ Edge responsive but elements slower
 Each browser was tested and all the browsers managed to outout the same results, the web app was responsive and
 
 
+![](images/16.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](images/17.png)
 
 
 
