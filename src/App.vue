@@ -3,25 +3,26 @@
      
    <div class="container">
        
+<div class="text">
+   <nav id="navbar">
        
-       
-   <nav>
-       
-       <ul>  <router-link :to="'/'">  <li><span class="left_span"></span><span class="right_span"></span>Home</li>
+       <ul>  <router-link :to="'/'"> <li><span class="left_span"></span><span class="right_span"></span><h2>Home</h2></li>
                 
             </router-link>
            
            
             <router-link :to="'/add'">
-               <li><span class="left_span"></span><span class="right_span"></span>Tourism</li>
+               <li><span class="left_span"></span><span class="right_span"></span><h2>Tourism</h2></li>
              </router-link>
            </li>
        </ul>
    </nav>
+ </div>
    </div>
    <router-view></router-view>
    
   </div>
+  
 </template>
 
 <script>
@@ -48,6 +49,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#navbar{
+    opacity: 0.8;
+    
+}
+.h2{
+    color:white;
 }
 
 #one {
@@ -141,15 +149,32 @@ header {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-  
+
+  background-image: url('https://i.postimg.cc/CLMfKF9c/background-pexel.jpg');
+    background-size: repeat;
+
 }
 
-
+.card{
+   
+}
+.card-title{
+    color:white;
+    
+}
+.card-text{
+    color:white;
+    
+}
+.card-body{
+    
+    background-color:black;
+    opacity:0.7;
+}
 #cards{
    margin-left:100px; 
   width:10rem;
- float:left;
+ float:right;
 
 }
 
@@ -159,7 +184,9 @@ header {
 
 
 .container{
+    padding-top:5rem;
   width: 100%;
+  height:100%;
 }
 
 .container ul{
@@ -174,9 +201,9 @@ header {
   text-align: center;
   width: 100%;
   height: 50px;
-  padding-top: 12px;
+
   font-size: 20px;
-  background-color: #1e272e;
+background: rgba(36, 42, 45, 0.5);
   color: #808e9b;
   margin: 0;
   position: relative;
@@ -190,7 +217,8 @@ header {
   left: 0;
   width: 6px;
   height: 0%;
-  background-color: #d2dae2;
+  background-color: white;
+
 }
 
 .container ul li .right_span{
@@ -199,13 +227,14 @@ header {
   right: 0;
   width: 6px;
   height: 0%;
-  background-color: #d2dae2;
+  background: rgba(36, 42, 45, 0.5);
 }
 
 
 .container ul li:hover span{
   height: 100%;
   transition: all .5s ease-in-out;
+   color: #fff;
 }
 
 .container ul li:hover{
@@ -334,26 +363,6 @@ header {
 
 
 
-
-
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
- -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-  
-}
-
-
-#cards{
-   margin-left:100px; 
-  width:10rem;
- float:left;
-
-}
-
 .left-span{
     padding: 100px 400px; 
 }
@@ -411,126 +420,10 @@ header {
 
 .container ul li:hover{
   color: #d2dae2;
-  /* padding-top: 15px; */
+ 
   transition: all .5s ease-in-out;
 }
 
-
-.row, 
-.column {
-    box-sizing: border-box;
-}
-
-.row:before,
-.row:after {
-    content: " ";
-    display: table;
-}
-
-.row:after {
-    clear: both;
-}
-
-.column {
-    position: relative;
-    float: left;
-    display: block;
-}
-
-.column + .column {
-    margin-left: 1.6%;
-}
-
-.column-1 {
-    width: 6.86666666667%;
-}
-
-.column-2 {
-    width: 15.3333333333%;
-}
-
-.column-3 {
-    width: 23.8%;
-}
-
-.column-4 {
-    width: 32.2666666667%;
-}
-
-.column-5 {
-    width: 40.7333333333%;
-}
-
-.column-6 {
-    width: 49.2%;
-    position: absolute;
-  margin-left:500px;
-    padding-top: 10;
-   padding-right: 10;
-    padding-bottom: 10;
-  padding-left: 10;
-  width: 100%;
-  height: 100%;
-  background-color: #ccc;
-  border-radius: 3px;
-  padding-left:700px;
-    
-}
-
-.column-7 {
-    width: 57.6666666667%;
-}
-
-.column-8 {
-    width: 66.1333333333%;
-}
-
-.column-9 {
-    width: 74.6%;
-}
-
-.column-10 {
-    width: 83.0666666667%;
-}
-
-.column-11 {
-    width: 91.5333333333%;
-}
-
-.column-12 {
-    width: 100%;
-    margin-left: 0;
-    margin-right:0;
-    height:100%;
-
- 
-             
-}
-
-
-
-
-@media only screen and (max-width: 550px) {
-    .column-1, 
-    .column-2, 
-    .column-3, 
-    .column-4, 
-    .column-5, 
-    .column-6, 
-    .column-7, 
-    .column-8, 
-    .column-9, 
-    .column-10, 
-    .column-11, 
-    .column-12 {
-        float: none;
-        width: auto;
-    }
-  
-    .column + .column {
-        margin-left: 0;
-    }
-}
 
 
 

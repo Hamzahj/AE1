@@ -1,46 +1,27 @@
-
-
 <template>
     
 <div class="row">
- 
-     
-         <div class="column-12">
-    <h1>Tourist hotspots for syour family</h1>
-
-
-         
-         </div>
-     
-     
     
-  
-     
-     <div id="cards">
-
-    <div v-for="result in results" class="col-12">
-      <div class="card" style="width: 50rem; height:50rem; margin-left:40px;">
+     <div class="column-12">  <h1 class='text-center'>Places to Visit</h1>   </div>
+    <div v-for="result in results" class="col-6">
+      <div class="card" style="width: 40rem;">
  <img :src="result.picture.url" > 
   <div class="card-body">
-   <div>
- 
-</div>
 
-     <h5 class="card-title">{{result.name}}</h5>
+
+    <h5 class="card-title">{{result.name}}</h5>
     <h5 class="card-title">{{result.location.name}}</h5>
     <p class="card-text">{{result.summary}}</p>
     <p class="card-text">{{result.location.address}}</p>
-        
-    <a href="#" class="btn btn-primary">Go somewhere</a>
- 
-  </div> 
-  
-  
- 
-    </div>
-  
 
 
+
+
+
+
+
+  </div>
+</div>
     </div>
     <!-- ./col-6 -->
     
@@ -49,7 +30,7 @@
 </div>
 <!-- ./row -->
     
-   
+    
     
    
   </div>
@@ -89,9 +70,6 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-body {
-  background-color: lightblue;
-}
 
 
 </style>
