@@ -4,7 +4,7 @@
     
 <div class="row">
     
-     <div class="column-12">  <h1 class='text-center'>Places to Visit</h1>   </div>
+     <div class="column-12">  <h1 class='text-center'>Tourist hotsoots to visit</h1>   </div>
     <div v-for="result in results" class="col-6">
       <div class="card" style="width: 40rem;">
  
@@ -19,7 +19,7 @@
 <p>{{result.summary}}</P>
   <p>{{result.location.address}}</P></div>
   <div class="button">
-  <div>Book now</div>
+  <div>Book now</div>   
 </div>
 </div>
 
