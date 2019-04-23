@@ -5,7 +5,7 @@ This project aims to produce a web app that will allow results for tourist hotsp
 Can search results be displayed in a visually attractive way? The gravity of this problem varies as depending on the demographic for different search engines it can be a big issue or a small issue. Many major search engines and websites such as google have a problem where results will only appear with links but no images to visual images to accompany them. As shown below the links are simple, however if images were to accompany them it would be slightly more attractive. Although not a necessity the single page app will be a tourism website where results will appear on a page. The single page application will be designed to simplify results to make results pleasing to view.  This article will focus on many things such as CSS grids, using Vue js, APIs, methods, wire framing, design inspiration, user research and user testing.  
 
 
-![](image.png)
+![](1.png)
 
 # Aim 
 The aim is to simplify the way results appear on websites accompanying to potential consumers of the market based on qualitative and quantitative research. The website will mostly be desktop based, however not limited as mobile first will also be considered. 
