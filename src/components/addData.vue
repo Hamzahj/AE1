@@ -1,24 +1,29 @@
 <template>
+  
+  
     
 <div class="row">
     
      <div class="column-12">  <h1 class='text-center'>Places to Visit</h1>   </div>
     <div v-for="result in results" class="col-6">
       <div class="card" style="width: 40rem;">
- <img :src="result.picture.url" > 
-  <div class="card-body">
+ 
 
+<div class="column-5">
+<div class="ui-cards"style="width: 500px; height: 500px;">
+ 
+  <div class="ui-card"style="width: 500px; height: 500px;">
+     <img :src="result.picture.url"style="width: 20rem; height: 10rem;"> 
+    <h1>{{result.name}}</h1>
+ {{result.location.name}}</h1>
+<p>{{result.summary}}</P>
+  <p>{{result.location.address}}</P></div>
+  <div class="button">
+  <div>Book now</div>
+</div>
+</div>
 
-    <h5 class="card-title">{{result.name}}</h5>
-    <h5 class="card-title">{{result.location.name}}</h5>
-    <p class="card-text">{{result.summary}}</p>
-    <p class="card-text">{{result.location.address}}</p>
-
-
-
-
-
-
+</div>
 
   </div>
 </div>

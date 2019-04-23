@@ -43,7 +43,26 @@ export default {
     padding: 0;
 }
 
+.button {
+  width: 110px;
 
+  }
+  .button {
+  color: #fff;
+  text-align:center;
+  line-height:40px;
+  height: 40px;
+  border-radius:20px;
+  background: linear-gradient(90deg, green, blue, green,black)  center / cover;
+  background-size: 400% 400%;
+  animation: AnimationName 2.5s ease infinite;
+  }
+  @keyframes AnimationName { 
+  0%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+  
+  }
+  
 header {
      background: url(https://i.postimg.cc/v8zM41BJ/adventure-beautiful-boardwalk-235734.jpg) no-repeat fixed center;
     display: flex;
@@ -59,7 +78,7 @@ header {
 }
 
 #one {
-    background: url(https://i.postimg.cc/v8zM41BJ/adventure-beautiful-boardwalk-235734.jpg) no-repeat fixed center;
+    background: url(http://www.bingwallpaperhd.com/wp-content/uploads/2018/09/ArcticHenge.jpg) no-repeat fixed center;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -76,7 +95,7 @@ header {
 
 
 #three {
-    background: url(https://i.postimg.cc/CLMfKF9c/background-pexel.jpg) no-repeat fixed center;
+    background: url(http://www.bingwallpaperhd.com/wp-content/uploads/2018/07/FujiMilkyway0.jpg ) no-repeat fixed center;
     background-size: cover;
     height: 50vh;
 
@@ -150,13 +169,16 @@ header {
   text-align: center;
   color: #2c3e50;
 
-  background-image: url('https://i.postimg.cc/CLMfKF9c/background-pexel.jpg');
-    background-size: repeat;
+  background-image: url('http://www.bingwallpaperhd.com/wp-content/uploads/2019/02/RavenWolf.jpg');
+  background-repeat: repeat;
+  background-size: auto;
 
+  
 }
 
-.card{
-   
+.text-center{
+   color:black;
+   h1:black;
 }
 .card-title{
     color:white;
@@ -291,8 +313,10 @@ background: rgba(36, 42, 45, 0.5);
 
 .column-6 {
     width: 49.2%;
-    position: absolute;
+  overflow:hidden;
+    margin-right:500px;
   margin-left:500px;
+  
     padding-top: 10;
    padding-right: 10;
     padding-bottom: 10;
@@ -426,6 +450,37 @@ background: rgba(36, 42, 45, 0.5);
 
 
 
+.ui-cards {
+     margin-top:100px;
+    margin-left:100px;
+      margin-right:100px;
+        margin-bottom:100px;
+    
+  text-align: center;
+
+;
+
+
+}
+.ui-cards:hover .ui-card {
+  opacity: 0.4;
+}
+.ui-cards:hover .ui-card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1;
+  
+}
+
+.ui-card {
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  background: lightblue;
+  padding: 4rem 1rem;
+  transition: 300ms opacity, 300ms -webkit-transform;
+  transition: 300ms opacity, 300ms transform;
+  transition: 300ms opacity, 300ms transform, 300ms -webkit-transform;
+}
 
 
 
