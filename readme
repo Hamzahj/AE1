@@ -1,0 +1,12 @@
+# To run the file
+
+Clone this repository
+git clone  https://github.com/Hamzahj/AE1.git
+
+
+#Project setup
+#npm install
+#Run The Project
+#npm run serve
+
+#npm run build
